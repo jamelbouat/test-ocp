@@ -1,0 +1,23 @@
+{
+  "name": "test-ocp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./db.json --port 4400"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamelbouat/test-ocp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamelbouat/test-ocp/issues"
+  },
+  "homepage": "https://github.com/jamelbouat/test-ocp#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
